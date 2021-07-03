@@ -1,0 +1,167 @@
+/* Fonts */
+
+@font-face {
+	font-family: "Open-sans";
+	src: url("fonts/OpenSans-Regular.ttf");
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Open-sans";
+	src: url("fonts/OpenSans-Bold.ttf");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Open-sans";
+	src: url("fonts/OpenSans-Light.ttf");
+	font-weight: lighter;
+}
+@font-face {
+	font-family: "Open-sans";
+	src: url("fonts/OpenSans-Italic.ttf");
+	font-style: italic;
+}
+
+* {
+	font-family: "Open-sans", sans-serif;
+}
+
+
+body {
+	background: #020a18;
+	color: #fff;
+}
+
+
+.btn.btn-primary {
+	padding: 5px 25px;
+	background: #3A68B8;
+	border-color: #3A68B8;
+}
+.btn.btn-primary:hover {
+	background: #315697;
+}
+.btn.btn-primary:focus {
+	background: transparent;
+	color: #315697;
+	box-shadow: none;
+}
+
+.text-primary-cs {
+	color: #3A68B8;
+}
+
+
+/* Header */
+
+.header {
+	background: #0a121f;
+}
+
+
+.header .navbar .navbar-brand {
+	color: #3A68B8;
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+.header .navbar .navbar-brand:hover {
+	color: #315697;
+}
+
+.navbar-brand img {
+	height: 44px;
+}
+
+.header .navbar .navbar-toggler {
+	border: none;
+}
+.header .navbar .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+
+/* Home */
+
+.home {
+	background: #09111e;
+}
+
+h2.section-title {
+	font-size: 2.7rem;
+}
+
+p.section-text {
+	font-size: 1.1rem;
+}
+
+
+/* About */
+
+.about .card {
+	background: #101724;
+	border-radius: 10px;
+}
+
+.about .card .card-title {
+	font-size: 1.2rem;
+}
+
+.about .card .card-text {
+	font-size: 1rem;
+}
+
+.about .card .card-img-top {
+	width: 97px;
+}
+
+.about .carousel .carousel-item {
+	height: 350px;
+}
+
+.about .carousel .carousel-indicators button.cs {
+	width: 15px;
+	height: 15px;
+	clip-path: circle();
+	background: #101724;
+	opacity: 1;
+}
+
+.about .carousel .carousel-indicators button.cs.active {
+	background: #1a253a;
+}
+
+
+
+.about .carousel .carousel-indicators {
+	position: absolute;
+	bottom: -20%;
+}
+
+
+/* Footer */
+
+.footer {
+	background: #09111e;
+}
+
+.footer * {
+	font-size: 0.9rem;
+}
+
+.footer h5 {
+	font-size: 1.5rem;
+}
+
+.footer .footer__info a.text-light:hover {
+	color: red;
+}
+
+.footer .footer__links a {
+	display: block;
+	padding: 9px 0;
+	text-decoration: none;
+	color: #ddd;
+}
+
+.footer .footer__about a.text-light {
+	margin: 2px 4px;
+}
